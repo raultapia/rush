@@ -1,0 +1,32 @@
+name: Submodule
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  update-submodule-branch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Configure git
+        run: |
+          git config --global user.name "Raul Tapia"
+          git config --global user.email "raultapia@us.es"
+
+      - name: Delete submodule branch
+        run: |
+          git push origin --delete submodule
+        continue-on-error: true
+
+      - name: Publish into submodule branch
+        run: |
+          mv include/rush/*.hpp .
+          rm -rf .github docs include .gitignore README.md LICENSE
+          git checkout -b submodule
+          git add .
+          git commit --amend -m "Auto-update RUSH"
+          git push origin submodule

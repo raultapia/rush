@@ -1,0 +1,7 @@
+.clang-format
+build/
+cmake
+CMakeLists.txt
+Dockerfile
+docs/*.svg
+tests/
