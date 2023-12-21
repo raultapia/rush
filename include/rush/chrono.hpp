@@ -2,6 +2,8 @@
  * @file chrono.hpp
  * @brief This library provides chrono utilities.
  * @author Raul Tapia (raultapia.com)
+ * @copyright GNU General Public License v3.0
+ * @see https://github.com/raultapia/rush
  */
 #ifndef RUSH_CHRONO_HPP
 #define RUSH_CHRONO_HPP

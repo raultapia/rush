@@ -2,6 +2,8 @@
  * @file ros-parameter-manager.hpp
  * @brief This library provides functionalities for loading, accessing, and manipulating ROS parameters.
  * @author Raul Tapia (raultapia.com)
+ * @copyright GNU General Public License v3.0
+ * @see https://github.com/raultapia/rush
  */
 #ifndef RUSH_ROS_PARAMETER_MANAGER_HPP
 #define RUSH_ROS_PARAMETER_MANAGER_HPP
