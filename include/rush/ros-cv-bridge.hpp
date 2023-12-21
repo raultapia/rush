@@ -2,6 +2,8 @@
  * @file ros-cv-bridge.hpp
  * @brief This library provides an easier-to-use ROS-OpenCV bridge.
  * @author Raul Tapia (raultapia.com)
+ * @copyright GNU General Public License v3.0
+ * @see https://github.com/raultapia/rush
  */
 #ifndef RUSH_ROS_CV_BRIDGE_HPP
 #define RUSH_ROS_CV_BRIDGE_HPP

@@ -2,6 +2,8 @@
  * @file cv-highgui.hpp
  * @brief This library extends OpenCV's HighGUI functionalities.
  * @author Raul Tapia (raultapia.com)
+ * @copyright GNU General Public License v3.0
+ * @see https://github.com/raultapia/rush
  */
 #ifndef RUSH_CV_HIGHGUI_HPP
 #define RUSH_CV_HIGHGUI_HPP
