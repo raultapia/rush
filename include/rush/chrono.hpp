@@ -77,6 +77,15 @@ public:
     return std::chrono::duration_cast<std::chrono::duration<double, T>>(std::chrono::high_resolution_clock::now() - t0_).count();
   }
 
+  /**
+   * @brief Get unit as string.
+   *
+   * @return Chrono unit as string.
+   */
+  [[nodiscard]] inline std::string unit() const {
+    return Unit<T>().str();
+  }
+
 private:
   std::chrono::time_point<std::chrono::high_resolution_clock> t0_;
 };
@@ -101,7 +110,7 @@ public:
     if(!name_.empty()) {
       std::cout << "[" << name_ << "] ";
     }
-    std::cout << "Elapsed time: " << t << " " << Unit<T>().str() << std::endl;
+    std::cout << "Elapsed time: " << t << " " << Chrono<T>::unit() << std::endl;
   }
 
   Chronometer(const Chronometer &) = delete;
