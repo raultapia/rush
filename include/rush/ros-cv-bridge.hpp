@@ -56,6 +56,18 @@ inline void cv2ros(const cv::Mat &cv, sensor_msgs::Image &ros, const std_msgs::H
 }
 
 /**
+ * @brief Converts an OpenCV Mat to a ROS Image message.
+ * @param cv The input OpenCV Mat.
+ * @param header The header for the ROS Image message.
+ * @return The output ROS Image message.
+ */
+inline sensor_msgs::Image cv2ros(const cv::Mat &cv, const std_msgs::Header &header = std_msgs::Header()) {
+  sensor_msgs::Image ros;
+  cv_bridge::CvImage(header, Encoding::get(cv), cv).toImageMsg(ros);
+  return ros;
+}
+
+/**
  * @brief Converts a ROS Image message to an OpenCV Mat.
  * @param ros The input ROS Image message.
  * @param cv The output OpenCV Mat.
@@ -63,6 +75,16 @@ inline void cv2ros(const cv::Mat &cv, sensor_msgs::Image &ros, const std_msgs::H
 inline void ros2cv(const sensor_msgs::Image &ros, cv::Mat &cv) {
   const cv_bridge::CvImagePtr cv_ptr = cv_bridge::toCvCopy(ros, ros.encoding);
   (cv_ptr->image).copyTo(cv);
+}
+
+/**
+ * @brief Converts a ROS Image message to an OpenCV Mat.
+ * @param ros The input ROS Image message.
+ * @return The output OpenCV Mat.
+ */
+inline cv::Mat ros2cv(const sensor_msgs::Image &ros) {
+  const cv_bridge::CvImagePtr cv_ptr = cv_bridge::toCvCopy(ros, ros.encoding);
+  return (cv_ptr->image);
 }
 
 /**
