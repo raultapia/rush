@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['min_0',['min',['../chrono_8hpp.html#ad015b67e01029e9d1a319690727d1bc7',1,'rush::chrono']]],
-  ['ms_1',['ms',['../chrono_8hpp.html#a0288cbadb93c44f8fed977c637602fdf',1,'rush::chrono']]]
+  ['min_0',['min',['../chrono_8hpp.html#ae165f4700d486ad06ed7b327d8b144db',1,'rush::chrono']]],
+  ['ms_1',['ms',['../chrono_8hpp.html#a65296955cf0a42215e83e99e8e4970af',1,'rush::chrono']]]
 ];
