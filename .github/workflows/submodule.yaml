@@ -25,7 +25,7 @@ jobs:
       - name: Publish into submodule branch
         run: |
           mv include/rush/*.hpp .
-          rm -rf .github docs include .gitignore README.md LICENSE
+          rm -rf .github include .gitignore Doxyfile LICENSE README.md
           git checkout -b submodule
           git add .
           git commit --amend -m "Auto-update RUSH"

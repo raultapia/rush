@@ -1,9 +1,8 @@
 PROJECT_NAME           = RUSH
 PROJECT_BRIEF          = "Reusable Utilities in Single Headers is a collection of header-only utilities for C++"
-PROJECT_LOGO           = rush.png
-USE_MDFILE_AS_MAINPAGE = ../README.md
+PROJECT_LOGO           = ./.github/assets/logo.png
+USE_MDFILE_AS_MAINPAGE = ./README.md
 GENERATE_HTML          = YES
 USE_MATHJAX            = YES
 RECURSIVE              = YES
-INPUT                  = ..
-OUTPUT_DIRECTORY       = .
+OUTPUT_DIRECTORY       = ./docs/

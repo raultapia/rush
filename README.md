@@ -1,17 +1,13 @@
-<!--
-\cond INTERNAL
--->
+<!-- \internal -->
 <div align="center" style="margin-bottom: 10px;">
 <a href="https://github.com/raultapia/rush">
-<img src="https://github.com/raultapia/rush/blob/main/docs/rush.png?raw=true" alt="rush">
+<img src="https://github.com/raultapia/rush/blob/main/.github/assets/logo.png?raw=true" alt="rush">
 </a>
 </div>
 <p align="center">
 Reusable Utilities in Single Headers is a collection of header-only utilities for C++
 </p>
-<!--
-\endcond
--->
+<!-- \endinternal -->
 
 ## ⚙️ Using RUSH in Your Project
 ```bash

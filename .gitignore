@@ -1,7 +1,6 @@
-.clang-format
+*.svg
 build/
 cmake
 CMakeLists.txt
 Dockerfile
-docs/*.svg
 tests/
