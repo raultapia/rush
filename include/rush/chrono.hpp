@@ -12,6 +12,7 @@
 #include <iostream>
 #include <ratio>
 #include <string>
+#include <thread>
 #include <utility>
 
 namespace rush::chrono {
@@ -44,6 +45,17 @@ using s = std::ratio<1>;       ///< Convenience alias for seconds
 using min = std::ratio<60>;    ///< Convenience alias for minutes
 using hour = std::ratio<3600>; ///< Convenience alias for hours
 using day = std::ratio<86400>; ///< Convenience alias for days
+
+/**
+ * @brief Sleep for the specified duration.
+ *
+ * @tparam T Unit of time (default to seconds).
+ * @param t The duration.
+ */
+template <typename T = s>
+inline void sleep(double t) {
+  std::this_thread::sleep_for(std::chrono::duration<double, T>(t));
+}
 
 /**
  * @brief A simple chrono class to measure elapsed time.
