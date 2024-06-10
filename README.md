@@ -21,6 +21,7 @@ git submodule add -b submodule https://github.com/raultapia/rush include/rush
 ## 🖥️ List of Utilities
 |Name|Include|Namespace|
 |:-|:-|:-:|
+|Algorithm|`#include <rush/algorithm.hpp>`|`rush`|
 |Chrono|`#include <rush/chrono.hpp>`|`rush::chrono`|
 |OpenCV HighGUI|`#include <rush/cv-highgui.hpp>`|`rush::cv`|
 |ROS-OpenCV Bridge|`#include <rush/ros-cv-bridge.hpp>`|`rush::roscv`|
