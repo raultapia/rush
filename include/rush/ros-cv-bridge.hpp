@@ -94,11 +94,6 @@ class Publisher : public ros::Publisher {
   using ros::Publisher::Publisher;
 
 public:
-  Publisher &operator=(const ros::Publisher &x) {
-    ros::Publisher::operator=(x);
-    return *this;
-  }
-
   /**
    * @brief Publishes an OpenCV Mat as a ROS Image message.
    * @param img The input OpenCV Mat to be published.
