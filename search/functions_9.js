@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['unit_0',['unit',['../classrush_1_1chrono_1_1Chrono.html#a2f48c03859cdc5bda2cf8f789522dbf6',1,'rush::chrono::Chrono']]]
+  ['sleep_0',['sleep',['../chrono_8hpp.html#a0c748590b1783b0a861ccf73bd94f15b',1,'rush::chrono']]]
 ];

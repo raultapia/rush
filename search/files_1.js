@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['ros_2dcv_2dbridge_2ehpp_0',['ros-cv-bridge.hpp',['../ros-cv-bridge_8hpp.html',1,'']]],
-  ['ros_2dparameter_2dmanager_2ehpp_1',['ros-parameter-manager.hpp',['../ros-parameter-manager_8hpp.html',1,'']]]
+  ['chrono_2ehpp_0',['chrono.hpp',['../chrono_8hpp.html',1,'']]],
+  ['color_2ehpp_1',['color.hpp',['../color_8hpp.html',1,'']]],
+  ['cv_2dhighgui_2ehpp_2',['cv-highgui.hpp',['../cv-highgui_8hpp.html',1,'']]]
 ];

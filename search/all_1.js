@@ -1,10 +1,6 @@
 var searchData=
 [
-  ['chrono_0',['Chrono',['../classrush_1_1chrono_1_1Chrono.html',1,'rush::chrono']]],
-  ['chrono_2ehpp_1',['chrono.hpp',['../chrono_8hpp.html',1,'']]],
-  ['chrono_3c_20s_20_3e_2',['Chrono&lt; s &gt;',['../classrush_1_1chrono_1_1Chrono.html',1,'rush::chrono']]],
-  ['chronometer_3',['Chronometer',['../classrush_1_1chrono_1_1Chronometer.html',1,'rush::chrono::Chronometer&lt; T &gt;'],['../classrush_1_1chrono_1_1Chronometer.html#a1b3eeb225c662a649bb30a5f017f6203',1,'rush::chrono::Chronometer::Chronometer()']]],
-  ['contact_4',['📬 Contact',['../index.html#autotoc_md4',1,'']]],
-  ['cv_2dhighgui_2ehpp_5',['cv-highgui.hpp',['../cv-highgui_8hpp.html',1,'']]],
-  ['cv2ros_6',['cv2ros',['../ros-cv-bridge_8hpp.html#a99f4055f89480cae5e8020042ba9f3b1',1,'rush::roscv::cv2ros(const cv::Mat &amp;cv, sensor_msgs::Image &amp;ros, const std_msgs::Header &amp;header=std_msgs::Header())'],['../ros-cv-bridge_8hpp.html#a9880f78f326586da186376872686fb7f',1,'rush::roscv::cv2ros(const cv::Mat &amp;cv, const std_msgs::Header &amp;header=std_msgs::Header())']]]
+  ['background_0',['Background',['../color_8hpp.html#a01857ba0cdf631bfa4bd9d8ee07e449e',1,'rush::color']]],
+  ['bar_1',['Bar',['../classrush_1_1progress_1_1Bar.html',1,'rush::progress::Bar'],['../classrush_1_1progress_1_1Bar.html#a77e4fcec39fbc5d5093be3d9ce4d1df8',1,'rush::progress::Bar::Bar()']]],
+  ['bg_2',['bg',['../color_8hpp.html#a279429a6f40a987a247e7ab2bd9ef443',1,'rush::color']]]
 ];

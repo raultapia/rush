@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ns_0',['ns',['../chrono_8hpp.html#ab3e4f44fe00467ee1acd61da2e650dc3',1,'rush::chrono']]]
+  ['hour_0',['hour',['../chrono_8hpp.html#a5b008c303def4ad44bdc03cabde94b33',1,'rush::chrono']]]
 ];

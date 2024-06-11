@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['day_0',['day',['../chrono_8hpp.html#a532fc2437803db6941993ad3a90caa99',1,'rush::chrono']]]
+  ['bg_0',['bg',['../color_8hpp.html#a279429a6f40a987a247e7ab2bd9ef443',1,'rush::color']]]
 ];

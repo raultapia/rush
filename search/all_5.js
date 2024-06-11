@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['hour_0',['hour',['../chrono_8hpp.html#a5b008c303def4ad44bdc03cabde94b33',1,'rush::chrono']]]
+  ['fg_0',['fg',['../color_8hpp.html#a1419763e9a12756166502d39f134db20',1,'rush::color']]],
+  ['foreground_1',['Foreground',['../color_8hpp.html#ad051c5b5154d5258317eaa8d61f82a99',1,'rush::color']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['📚_20documentation_0',['📚 Documentation',['../index.html#autotoc_md2',1,'']]]
+  ['your_20project_0',['⚙️ Using RUSH in Your Project',['../index.html#autotoc_md0',1,'']]]
 ];

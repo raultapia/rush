@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['license_0',['📝 License',['../index.html#autotoc_md3',1,'']]],
-  ['list_20of_20utilities_1',['🖥️ List of Utilities',['../index.html#autotoc_md1',1,'']]],
-  ['load_2',['load',['../classrush_1_1ros_1_1ParamMapper.html#af1dce73e2452ad59711c35827a4cd03d',1,'rush::ros::ParamMapper']]]
+  ['hour_0',['hour',['../chrono_8hpp.html#a5b008c303def4ad44bdc03cabde94b33',1,'rush::chrono']]]
 ];
