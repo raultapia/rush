@@ -24,6 +24,7 @@ git submodule add -b submodule https://github.com/raultapia/rush include/rush
 |Progress Bar|`#include <rush/progress-bar.hpp>`|`rush::progress`|
 |ROS-OpenCV Bridge|`#include <rush/ros-cv-bridge.hpp>`|`rush::roscv`|
 |ROS Parameter Manager|`#include <rush/ros-parameter-manager.hpp>`|`rush::ros`|
+|String|`#include <rush/string.hpp>`|`rush::string`|
 
 ## 📚 Documentation
 RUSH documentation can be found [here](https://raultapia.github.io/rush).
