@@ -108,7 +108,8 @@ $(function(){ initResizable(false); });
 
 <p>This library provides text color and style formating utilities.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;ostream&gt;</code><br />
+<div class="textblock"><code>#include &lt;cstdint&gt;</code><br />
+<code>#include &lt;ostream&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 <code>#include &lt;type_traits&gt;</code><br />
 </div>
@@ -116,16 +117,16 @@ $(function(){ initResizable(false); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a1419763e9a12756166502d39f134db20" id="r_a1419763e9a12756166502d39f134db20"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1419763e9a12756166502d39f134db20">rush::color::fg</a> = <a class="el" href="#ad051c5b5154d5258317eaa8d61f82a99">Foreground</a></td></tr>
+<tr class="memitem:a1419763e9a12756166502d39f134db20" id="r_a1419763e9a12756166502d39f134db20"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1419763e9a12756166502d39f134db20">rush::color::fg</a> = <a class="el" href="#ae5fe0ea0146eb40e53444818de02fdf5">Foreground</a></td></tr>
 <tr class="separator:a1419763e9a12756166502d39f134db20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a279429a6f40a987a247e7ab2bd9ef443" id="r_a279429a6f40a987a247e7ab2bd9ef443"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a279429a6f40a987a247e7ab2bd9ef443">rush::color::bg</a> = <a class="el" href="#a01857ba0cdf631bfa4bd9d8ee07e449e">Background</a></td></tr>
+<tr class="memitem:a279429a6f40a987a247e7ab2bd9ef443" id="r_a279429a6f40a987a247e7ab2bd9ef443"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a279429a6f40a987a247e7ab2bd9ef443">rush::color::bg</a> = <a class="el" href="#a465c2c5711c1eec70b9affbcb003be22">Background</a></td></tr>
 <tr class="separator:a279429a6f40a987a247e7ab2bd9ef443"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48d3a8ff9804208958d72837f383832c" id="r_a48d3a8ff9804208958d72837f383832c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48d3a8ff9804208958d72837f383832c">rush::color::st</a> = <a class="el" href="#ad6e53ed867e17a95cd3e0d3225863179">Style</a></td></tr>
+<tr class="memitem:a48d3a8ff9804208958d72837f383832c" id="r_a48d3a8ff9804208958d72837f383832c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48d3a8ff9804208958d72837f383832c">rush::color::st</a> = <a class="el" href="#a6614ab28f3ce4c789eb74bdff33da0dc">Style</a></td></tr>
 <tr class="separator:a48d3a8ff9804208958d72837f383832c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ad051c5b5154d5258317eaa8d61f82a99" id="r_ad051c5b5154d5258317eaa8d61f82a99"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad051c5b5154d5258317eaa8d61f82a99">rush::color::Foreground</a> { <br />
+<tr class="memitem:ae5fe0ea0146eb40e53444818de02fdf5" id="r_ae5fe0ea0146eb40e53444818de02fdf5"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5fe0ea0146eb40e53444818de02fdf5">rush::color::Foreground</a> : std::uint8_t { <br />
 &#160;&#160;<b>black</b> = 30
 , <b>red</b>
 , <b>green</b>
@@ -139,9 +140,9 @@ Enumerations</h2></td></tr>
 &#160;&#160;<b>white</b> = 0
 <br />
  }</td></tr>
-<tr class="memdesc:ad051c5b5154d5258317eaa8d61f82a99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream buffer foreground color.  <a href="#ad051c5b5154d5258317eaa8d61f82a99">More...</a><br /></td></tr>
-<tr class="separator:ad051c5b5154d5258317eaa8d61f82a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01857ba0cdf631bfa4bd9d8ee07e449e" id="r_a01857ba0cdf631bfa4bd9d8ee07e449e"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01857ba0cdf631bfa4bd9d8ee07e449e">rush::color::Background</a> { <br />
+<tr class="memdesc:ae5fe0ea0146eb40e53444818de02fdf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream buffer foreground color.  <a href="#ae5fe0ea0146eb40e53444818de02fdf5">More...</a><br /></td></tr>
+<tr class="separator:ae5fe0ea0146eb40e53444818de02fdf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a465c2c5711c1eec70b9affbcb003be22" id="r_a465c2c5711c1eec70b9affbcb003be22"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a465c2c5711c1eec70b9affbcb003be22">rush::color::Background</a> : std::uint8_t { <br />
 &#160;&#160;<b>black</b> = 40
 , <b>red</b>
 , <b>green</b>
@@ -153,9 +154,9 @@ Enumerations</h2></td></tr>
 , <b>gray</b>
 <br />
  }</td></tr>
-<tr class="memdesc:a01857ba0cdf631bfa4bd9d8ee07e449e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream buffer background color.  <a href="#a01857ba0cdf631bfa4bd9d8ee07e449e">More...</a><br /></td></tr>
-<tr class="separator:a01857ba0cdf631bfa4bd9d8ee07e449e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6e53ed867e17a95cd3e0d3225863179" id="r_ad6e53ed867e17a95cd3e0d3225863179"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6e53ed867e17a95cd3e0d3225863179">rush::color::Style</a> { <br />
+<tr class="memdesc:a465c2c5711c1eec70b9affbcb003be22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream buffer background color.  <a href="#a465c2c5711c1eec70b9affbcb003be22">More...</a><br /></td></tr>
+<tr class="separator:a465c2c5711c1eec70b9affbcb003be22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6614ab28f3ce4c789eb74bdff33da0dc" id="r_a6614ab28f3ce4c789eb74bdff33da0dc"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6614ab28f3ce4c789eb74bdff33da0dc">rush::color::Style</a> : std::uint8_t { <br />
 &#160;&#160;<b>bold</b> = 1
 , <b>dim</b>
 , <b>italic</b>
@@ -169,8 +170,8 @@ Enumerations</h2></td></tr>
 &#160;&#160;<b>crossed</b>
 <br />
  }</td></tr>
-<tr class="memdesc:ad6e53ed867e17a95cd3e0d3225863179"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream buffer style.  <a href="#ad6e53ed867e17a95cd3e0d3225863179">More...</a><br /></td></tr>
-<tr class="separator:ad6e53ed867e17a95cd3e0d3225863179"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:a6614ab28f3ce4c789eb74bdff33da0dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream buffer style.  <a href="#a6614ab28f3ce4c789eb74bdff33da0dc">More...</a><br /></td></tr>
+<tr class="separator:a6614ab28f3ce4c789eb74bdff33da0dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -199,7 +200,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a01857ba0cdf631bfa4bd9d8ee07e449e">rush::color::bg</a> = Background</td>
+          <td class="memname">using <a class="el" href="#a465c2c5711c1eec70b9affbcb003be22">rush::color::bg</a> = Background</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -214,7 +215,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#ad051c5b5154d5258317eaa8d61f82a99">rush::color::fg</a> = Foreground</td>
+          <td class="memname">using <a class="el" href="#ae5fe0ea0146eb40e53444818de02fdf5">rush::color::fg</a> = Foreground</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -229,7 +230,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#ad6e53ed867e17a95cd3e0d3225863179">rush::color::st</a> = Style</td>
+          <td class="memname">using <a class="el" href="#a6614ab28f3ce4c789eb74bdff33da0dc">rush::color::st</a> = Style</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -238,8 +239,8 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a01857ba0cdf631bfa4bd9d8ee07e449e" name="a01857ba0cdf631bfa4bd9d8ee07e449e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01857ba0cdf631bfa4bd9d8ee07e449e">&#9670;&#160;</a></span>Background</h2>
+<a id="a465c2c5711c1eec70b9affbcb003be22" name="a465c2c5711c1eec70b9affbcb003be22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a465c2c5711c1eec70b9affbcb003be22">&#9670;&#160;</a></span>Background</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -248,7 +249,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum class <a class="el" href="#a01857ba0cdf631bfa4bd9d8ee07e449e">rush::color::Background</a></td>
+          <td class="memname">enum class <a class="el" href="#a465c2c5711c1eec70b9affbcb003be22">rush::color::Background</a> : std::uint8_t</td>
         </tr>
       </table>
   </td>
@@ -263,8 +264,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad051c5b5154d5258317eaa8d61f82a99" name="ad051c5b5154d5258317eaa8d61f82a99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad051c5b5154d5258317eaa8d61f82a99">&#9670;&#160;</a></span>Foreground</h2>
+<a id="ae5fe0ea0146eb40e53444818de02fdf5" name="ae5fe0ea0146eb40e53444818de02fdf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5fe0ea0146eb40e53444818de02fdf5">&#9670;&#160;</a></span>Foreground</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -273,7 +274,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum class <a class="el" href="#ad051c5b5154d5258317eaa8d61f82a99">rush::color::Foreground</a></td>
+          <td class="memname">enum class <a class="el" href="#ae5fe0ea0146eb40e53444818de02fdf5">rush::color::Foreground</a> : std::uint8_t</td>
         </tr>
       </table>
   </td>
@@ -288,8 +289,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad6e53ed867e17a95cd3e0d3225863179" name="ad6e53ed867e17a95cd3e0d3225863179"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6e53ed867e17a95cd3e0d3225863179">&#9670;&#160;</a></span>Style</h2>
+<a id="a6614ab28f3ce4c789eb74bdff33da0dc" name="a6614ab28f3ce4c789eb74bdff33da0dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6614ab28f3ce4c789eb74bdff33da0dc">&#9670;&#160;</a></span>Style</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -298,7 +299,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum class <a class="el" href="#ad6e53ed867e17a95cd3e0d3225863179">rush::color::Style</a></td>
+          <td class="memname">enum class <a class="el" href="#a6614ab28f3ce4c789eb74bdff33da0dc">rush::color::Style</a> : std::uint8_t</td>
         </tr>
       </table>
   </td>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['string_0',['string',['../classrush_1_1string.html',1,'rush']]]
+  ['rangecounter_0',['RangeCounter',['../classrush_1_1RangeCounter.html',1,'rush']]]
 ];

@@ -11,6 +11,9 @@ var searchData=
   ['complete_8',['complete',['../structrush_1_1progress_1_1Configuration.html#a430a89ca72e4dd94aa54cb9f24b56908',1,'rush::progress::Configuration']]],
   ['configuration_9',['Configuration',['../structrush_1_1progress_1_1Configuration.html',1,'rush::progress']]],
   ['contact_10',['📬 Contact',['../index.html#autotoc_md4',1,'']]],
-  ['cv_2dhighgui_2ehpp_11',['cv-highgui.hpp',['../cv-highgui_8hpp.html',1,'']]],
-  ['cv2ros_12',['cv2ros',['../ros-cv-bridge_8hpp.html#a99f4055f89480cae5e8020042ba9f3b1',1,'rush::roscv::cv2ros(const cv::Mat &amp;cv, sensor_msgs::Image &amp;ros, const std_msgs::Header &amp;header=std_msgs::Header())'],['../ros-cv-bridge_8hpp.html#a9880f78f326586da186376872686fb7f',1,'rush::roscv::cv2ros(const cv::Mat &amp;cv, const std_msgs::Header &amp;header=std_msgs::Header())']]]
+  ['counter_11',['Counter',['../classrush_1_1Counter.html',1,'rush::Counter&lt; T &gt;'],['../classrush_1_1Counter.html#a736bce8116d1ecd8617b336d23b0ec99',1,'rush::Counter::Counter()']]],
+  ['counter_2ehpp_12',['counter.hpp',['../counter_8hpp.html',1,'']]],
+  ['counter_3c_20unsigned_20long_20_3e_13',['Counter&lt; unsigned long &gt;',['../classrush_1_1Counter.html',1,'rush']]],
+  ['cv_2dhighgui_2ehpp_14',['cv-highgui.hpp',['../cv-highgui_8hpp.html',1,'']]],
+  ['cv2ros_15',['cv2ros',['../ros-cv-bridge_8hpp.html#a99f4055f89480cae5e8020042ba9f3b1',1,'rush::roscv::cv2ros(const cv::Mat &amp;cv, sensor_msgs::Image &amp;ros, const std_msgs::Header &amp;header=std_msgs::Header())'],['../ros-cv-bridge_8hpp.html#a9880f78f326586da186376872686fb7f',1,'rush::roscv::cv2ros(const cv::Mat &amp;cv, const std_msgs::Header &amp;header=std_msgs::Header())']]]
 ];
