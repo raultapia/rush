@@ -21,6 +21,7 @@ git submodule add -b submodule https://github.com/raultapia/rush include/rush
 |Chrono|`#include <rush/chrono.hpp>`|`rush::chrono`|
 |Color|`#include <rush/color.hpp>`|`rush::color`|
 |OpenCV HighGUI|`#include <rush/cv-highgui.hpp>`|`rush::cv`|
+|Progress Bar|`#include <rush/progress-bar.hpp>`|`rush::progress`|
 |ROS-OpenCV Bridge|`#include <rush/ros-cv-bridge.hpp>`|`rush::roscv`|
 |ROS Parameter Manager|`#include <rush/ros-parameter-manager.hpp>`|`rush::ros`|
 
