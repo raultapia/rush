@@ -88,6 +88,26 @@ inline cv::Mat ros2cv(const sensor_msgs::Image &ros) {
 }
 
 /**
+ * @brief Converts a ROS Image message to an OpenCV Mat.
+ * @param ros The input ROS Image message.
+ * @param cv The output OpenCV Mat.
+ * @note This function is provided for convenience when working with ImageConstPtr.
+ */
+inline void ros2cv(const sensor_msgs::ImageConstPtr &ros, cv::Mat &cv) {
+  ros2cv(*ros, cv);
+}
+
+/**
+ * @brief Converts a ROS Image message to an OpenCV Mat.
+ * @param ros The input ROS Image message.
+ * @return The output OpenCV Mat.
+ * @note This function is provided for convenience when working with ImageConstPtr.
+ */
+inline cv::Mat ros2cv(const sensor_msgs::ImageConstPtr &ros) {
+  return ros2cv(*ros);
+}
+
+/**
  * @brief This class extends ros::Publisher to directly publish OpenCV matrices.
  */
 class Publisher : public ros::Publisher {
