@@ -132,15 +132,15 @@ Functions</h2></td></tr>
 <tr class="memitem:a99f4055f89480cae5e8020042ba9f3b1" id="r_a99f4055f89480cae5e8020042ba9f3b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99f4055f89480cae5e8020042ba9f3b1">rush::roscv::cv2ros</a> (const cv::Mat &amp;cv, sensor_msgs::Image &amp;ros, const std_msgs::Header &amp;header=std_msgs::Header())</td></tr>
 <tr class="memdesc:a99f4055f89480cae5e8020042ba9f3b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an OpenCV Mat to a ROS Image message.  <br /></td></tr>
 <tr class="separator:a99f4055f89480cae5e8020042ba9f3b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9880f78f326586da186376872686fb7f" id="r_a9880f78f326586da186376872686fb7f"><td class="memItemLeft" align="right" valign="top">sensor_msgs::Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9880f78f326586da186376872686fb7f">rush::roscv::cv2ros</a> (const cv::Mat &amp;cv, const std_msgs::Header &amp;header=std_msgs::Header())</td></tr>
-<tr class="memdesc:a9880f78f326586da186376872686fb7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an OpenCV Mat to a ROS Image message.  <br /></td></tr>
-<tr class="separator:a9880f78f326586da186376872686fb7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84b3f0235e3646417a75b1176c70fd22" id="r_a84b3f0235e3646417a75b1176c70fd22"><td class="memItemLeft" align="right" valign="top">sensor_msgs::ImagePtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84b3f0235e3646417a75b1176c70fd22">rush::roscv::cv2ros</a> (const cv::Mat &amp;cv, const std_msgs::Header &amp;header=std_msgs::Header())</td></tr>
+<tr class="memdesc:a84b3f0235e3646417a75b1176c70fd22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an OpenCV Mat to a ROS Image message.  <br /></td></tr>
+<tr class="separator:a84b3f0235e3646417a75b1176c70fd22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a336c1ce69f8772e345bc2f568fe3ee70" id="r_a336c1ce69f8772e345bc2f568fe3ee70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a336c1ce69f8772e345bc2f568fe3ee70">rush::roscv::ros2cv</a> (const sensor_msgs::Image &amp;ros, cv::Mat &amp;cv)</td></tr>
 <tr class="memdesc:a336c1ce69f8772e345bc2f568fe3ee70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a ROS Image message to an OpenCV Mat.  <br /></td></tr>
 <tr class="separator:a336c1ce69f8772e345bc2f568fe3ee70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7303ff4318a557822a9fda182cf2ecdf" id="r_a7303ff4318a557822a9fda182cf2ecdf"><td class="memItemLeft" align="right" valign="top">cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7303ff4318a557822a9fda182cf2ecdf">rush::roscv::ros2cv</a> (const sensor_msgs::Image &amp;ros)</td></tr>
-<tr class="memdesc:a7303ff4318a557822a9fda182cf2ecdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a ROS Image message to an OpenCV Mat.  <br /></td></tr>
-<tr class="separator:a7303ff4318a557822a9fda182cf2ecdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeff94437f4d3aa949420cc4b840fc104" id="r_aeff94437f4d3aa949420cc4b840fc104"><td class="memItemLeft" align="right" valign="top">cv::Mat &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeff94437f4d3aa949420cc4b840fc104">rush::roscv::ros2cv</a> (const sensor_msgs::Image &amp;ros)</td></tr>
+<tr class="memdesc:aeff94437f4d3aa949420cc4b840fc104"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a ROS Image message to an OpenCV Mat.  <br /></td></tr>
+<tr class="separator:aeff94437f4d3aa949420cc4b840fc104"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbd29647965b162083b65b8e70bcbe11" id="r_acbd29647965b162083b65b8e70bcbe11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbd29647965b162083b65b8e70bcbe11">rush::roscv::ros2cv</a> (const sensor_msgs::ImageConstPtr &amp;ros, cv::Mat &amp;cv)</td></tr>
 <tr class="memdesc:acbd29647965b162083b65b8e70bcbe11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a ROS Image message to an OpenCV Mat.  <br /></td></tr>
 <tr class="separator:acbd29647965b162083b65b8e70bcbe11"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,8 +154,8 @@ Functions</h2></td></tr>
 <dl class="section copyright"><dt>Copyright</dt><dd>GNU General Public License v3.0 </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a href="https://github.com/raultapia/rush">https://github.com/raultapia/rush</a> </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a9880f78f326586da186376872686fb7f" name="a9880f78f326586da186376872686fb7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9880f78f326586da186376872686fb7f">&#9670;&#160;</a></span>cv2ros() <span class="overload">[1/2]</span></h2>
+<a id="a84b3f0235e3646417a75b1176c70fd22" name="a84b3f0235e3646417a75b1176c70fd22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84b3f0235e3646417a75b1176c70fd22">&#9670;&#160;</a></span>cv2ros() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -164,7 +164,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">sensor_msgs::Image rush::roscv::cv2ros </td>
+          <td class="memname">sensor_msgs::ImagePtr rush::roscv::cv2ros </td>
           <td>(</td>
           <td class="paramtype">const cv::Mat &amp;</td>          <td class="paramname"><span class="paramname"><em>cv</em></span>, </td>
         </tr>
@@ -237,8 +237,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7303ff4318a557822a9fda182cf2ecdf" name="a7303ff4318a557822a9fda182cf2ecdf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7303ff4318a557822a9fda182cf2ecdf">&#9670;&#160;</a></span>ros2cv() <span class="overload">[1/4]</span></h2>
+<a id="aeff94437f4d3aa949420cc4b840fc104" name="aeff94437f4d3aa949420cc4b840fc104"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeff94437f4d3aa949420cc4b840fc104">&#9670;&#160;</a></span>ros2cv() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -247,7 +247,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">cv::Mat rush::roscv::ros2cv </td>
+          <td class="memname">cv::Mat &amp; rush::roscv::ros2cv </td>
           <td>(</td>
           <td class="paramtype">const sensor_msgs::Image &amp;</td>          <td class="paramname"><span class="paramname"><em>ros</em></span></td><td>)</td>
           <td></td>
