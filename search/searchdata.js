@@ -8,7 +8,7 @@ var indexSectionsWithContent =
   5: "bdfhmnsu",
   6: "bfs",
   7: "o",
-  8: "r"
+  8: "cdilopruy⚙📚📝📬🖥"
 };
 
 var indexSectionNames =
