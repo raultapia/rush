@@ -1,5 +1,1 @@
 build/
-cmake
-CMakeLists.txt
-Dockerfile
-tests/
